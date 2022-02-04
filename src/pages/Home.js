@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Container, Image, ListGroup, Row, Col } from "react-bootstrap";
-import profilePic from "../assets/profilePic.jpeg";
+import profilePic from "../assets/profilePic.png";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
