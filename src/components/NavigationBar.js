@@ -1,7 +1,8 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import styled from "styled-components";
-import LinkedInLogo from "../assets/LI-In-Bug.png";
+import LinkedInLogo from "../assets/linkedIn.png";
+import EmailIcon from "../assets/baseline_mail_outline_black_36dp.png";
 
 const NavDiv = styled.div`
   background-color: white;
@@ -18,15 +19,24 @@ export const NavigationBar = () => (
           <Nav className="me-auto my-2 my-lg-0">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/projects">Projects</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
+            {/* <Nav.Link href="/education">Education</Nav.Link> */}
           </Nav>
           <div className="d-flex">
+            {/* <a href="">
+              <img
+                src={EmailIcon}
+                width="28"
+                height="28"
+                className="d-inline-block"
+                alt="Email"
+              />
+            </a> */}
             <a href="https://www.linkedin.com/in/henry-goodwin-62974376/">
               <img
                 src={LinkedInLogo}
-                width="35.27"
-                height="30"
-                className="d-inline-block align-top"
+                width="28"
+                height="28"
+                className="d-inline-block"
                 alt="LinkedIn"
               />
             </a>

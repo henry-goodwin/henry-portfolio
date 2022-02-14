@@ -6,7 +6,7 @@ import { Contact } from "./pages/Contact";
 import { NoMatch } from "./pages/NoMatch";
 import { Projects } from "./pages/Projects";
 import { NavigationBar } from "./components/NavigationBar";
-import Python from "./pages/Python";
+import Education from "./pages/Education";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/projects/python" element={<Python />} />
+          <Route path="/education" element={<Education />} />
           <Route path="*" element={<NoMatch />} />
         </Routes>
       </BrowserRouter>

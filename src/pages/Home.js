@@ -20,6 +20,10 @@ const CenterWrapper = styled.div`
   padding-bottom: 20px;
 `;
 
+const AboutMeDiv = styled.div`
+  padding-top: 20px;
+`;
+
 const WebLink = styled.a`
   text-decoration: none; /* no underline */
   color: white;
@@ -58,42 +62,32 @@ export const Home = () => (
           </CenterWrapper>
         </Col>
       </Row>
+      <AboutMeDiv>
+        <h2>About Me</h2>
+        <Row>
+          <Col>
+            <p>
+              My name is Henry Goodwin, I am a full-time student in my
+              penultimate year at the Queensland University of Technology.
+              Currently I am studying a dual degree in Business and Information
+              Technology. My majors are Finance and Computer Science and will
+              graduate in November 2023. I made this website to showcase my
+              knowledge and skills as a software engineer, check out some of my
+              proficient programming languages below.
+            </p>
+          </Col>
+        </Row>
 
-      <h2>About Me</h2>
-      <Row>
-        <Col>
-          <p>
-            My name is Henry Goodwin, I am a full-time student in my penultimate
-            year at the Queensland University of Technology. Currently I am
-            studying a dual degree in Business and Information Technology. My
-            majors are Finance and Computer Science and will graduate in Spring
-            2023. I made this website to showcase my knowlege and skills as a
-            software engineer, check out some of my proficient programming
-            languages below.
-          </p>
-        </Col>
-      </Row>
-
-      <ListGroup>
-        <ListGroup.Item action href="/projects/python">
-          Python
-        </ListGroup.Item>
-        <ListGroup.Item action href="/projects/react">
-          React/Javascript
-        </ListGroup.Item>
-        <ListGroup.Item action href="/projects/c">
-          C/C#/C++
-        </ListGroup.Item>
-        <ListGroup.Item action href="/projects/html">
-          HTML/CSS
-        </ListGroup.Item>
-        <ListGroup.Item action href="/projects/java">
-          Java/Kotlin
-        </ListGroup.Item>
-        <ListGroup.Item action href="/projects/ios">
-          Swift
-        </ListGroup.Item>
-      </ListGroup>
+        <ListGroup>
+          <ListGroup.Item>Python</ListGroup.Item>
+          <ListGroup.Item>React/Javascript</ListGroup.Item>
+          <ListGroup.Item>C/C#</ListGroup.Item>
+          <ListGroup.Item>HTML/CSS</ListGroup.Item>
+          <ListGroup.Item>Java/Kotlin</ListGroup.Item>
+          <ListGroup.Item>Swift</ListGroup.Item>
+          <ListGroup.Item>SQL/NOSQL</ListGroup.Item>
+        </ListGroup>
+      </AboutMeDiv>
     </Container>
   </Wrapper>
 );
