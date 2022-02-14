@@ -45,7 +45,7 @@ function ProjectView() {
       name: "Genomic Sequence Retrieval",
       languages: ["C#"],
       description:
-        "This university project was created to perform various search functions on a long complex string of genomic sequences. External libraries were not allowed for the project, so all libraries and algorithms were created from scratch. The final grade I received for this project was 45.5/50.",
+        "This university project was created to perform various search functions on a long complex string of genomic sequences. External libraries were not allowed for the project, so all libraries and algorithms were created from scratch. The final grade I received for this project was 45.6/50.",
     },
     {
       name: "Sole Marketplace",
@@ -53,7 +53,12 @@ function ProjectView() {
       description:
         "Sole Marketplace was a university project made to explore web developed. It used Flask and SQL to manage pages and user data. The final grade I received for this project was 46/50.",
     },
-    { name: "Electronic Trading Platform", languages: ["Java", "SQL"] },
+    {
+      name: "Electronic Trading Platform",
+      languages: ["Java", "SQL"],
+      description:
+        "The Electronic Trading Platform was a university project developed to understand the relationship between back and front end applications. It consisted of 2 Java programs, a client-side front end end management interface and a backend server that managed connections and a SQL database. The final grade achieved for this project was 45.5/50. ",
+    },
     {
       name: "This Website!",
       languages: ["React", "Javascript", "HTML"],
